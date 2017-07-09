@@ -1,6 +1,8 @@
 body{
 	text-align: center;
+	box-shadow: 10px 10px 10px 1px rgb(211,211,211)
 }
+			  
 .image{
 	background-image: url(../../image/jerry.jpg);
 	width: 100%;
@@ -8,6 +10,7 @@ body{
 	background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .reservation{
 	background-image: url(../../image/toms-restaurant.jpg);
@@ -15,6 +18,8 @@ body{
 	background-position: center;
 	background-size:cover;
 	height:500px;
+	box-shadow: 10px 10px 10px 1px grey;
+	position: relative;
 }
 .flex-container{
 	display: flex;
@@ -23,10 +28,23 @@ body{
 	height: 500px;
 	border: 1px solid blue;
 }
+.coffee{
+	background: orange;
+	font-size: 40px;
+	width: 40%;
+	position: absolute;
+	top: 150px;
+	left: 140px;
+	box-shadow: 10px 10px 10px 1px grey;
+}
 .shop{
 	color: white;
 	font-size: 40px;
 	font-weight: bold;
+	background-color: rgba(211,211,211,0.9);
+	position: absolute;
+	top: 100px;
+	box-shadow: 10px 10px 10px 1px grey;
 }
 .flex-container h2{
 	width: 100%;
@@ -38,12 +56,29 @@ body{
 	width: 100%;
 	height: 400px;
 	justify-content: space-around;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	margin-right: 10px;
 
 }
 .item{
 	width:50%;
 	margin-right: 2px;
-	border:2px solid black;
+	/*border:2px solid black;*/
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid blue;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+</

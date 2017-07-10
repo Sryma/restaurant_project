@@ -18,8 +18,8 @@
 	<div class="flex-container">
 		<h2>Reservation</h2>
 		<div class="content">
-			<div class="item">
-				<h3>Make a Reservation</h3>
+			<div class="item input">
+				<h2>Make a Reservation</h2>
 				<form>
     				Name:<input type="text"  placeholder="Name"></br></br>
     				Day:<input type="text" placeholder="Day"><br></br>
@@ -28,7 +28,7 @@
 				</form>
 			</div>
 			<div class="item">
-				<h3>Existing Reservation</h3>
+				<h2>Existing Reservation</h2>
 				<table>
 					<thead>
 						<th>Name</th>
@@ -41,25 +41,45 @@
 				</table>
 			</div>
 		</div>
+		
 	</div>
-	<div class="reservation">
-		<span class="shop">Come with us</span>
+		<div>
+			<h2 class="shop">Come with us</h2>
+		</div>
+	<div id="map">
+		
 		
 	</div>
 	<div class="flex-container">
 		<h2>Customer Reviews</h2>
 		<div class="content">
-			<div class="item">
+			<div class="part">
 				<h3>Make a Reservation</h3>
 				
 			</div>
-			<div class="item">
-				<h3>“Big lettuce, <em>big carrots, tomatoes</em> <strong>like volleyballs</strong>.”
-				— Jerry Seinfeld, on The BIG Salad</h3>
+			<div class="part input">
+				<p>“Big lettuce, <em>big carrots, tomatoes</em> <strong>like volleyballs</strong>.”
+				— Jerry Seinfeld, on The BIG Salad</p>
 			        				
 			</div>
 		</div>
 	</div>
+<script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var location ={lat: 40.8054491 ,lng:-73.9654415 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 8,
+         center: location
+        });
+        var marker = new google.maps.Marker({
+        	position: location,
+        	map: map
+        });
+      }
 
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXeZvzhaiU6AOEYeTanrYcpxKrq8H4TwQ&callback=initMap"
+    async defer></script>
 </body>
 </html>

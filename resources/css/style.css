@@ -1,9 +1,10 @@
 body{
 	text-align: center;
 	box-shadow: 10px 10px 10px 1px rgb(211,211,211);
-	background:  #666633;
+	background:  #3FBF5D;
 	margin: 0;
 	padding: 0;
+	color: #27863D;
 }
 			  
 .image{
@@ -14,6 +15,7 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
+    top:-20px;
 }
 /*.reservation{
 	background-image: url(../../image/toms-restaurant.jpg);
@@ -29,12 +31,12 @@ body{
 	width: 100%;
 	flex-direction:column;
 	height: 500px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 }
 .coffee{
 	background: orange;
 	font-size: 40px;
-	width: 40%;
+	width: 50%;
 	position: absolute;
 	top: 150px;
 	left: 140px;
@@ -47,8 +49,13 @@ body{
 	background-color: rgba(211,211,211,0.9);
 	box-shadow: 10px 10px 10px 1px grey;
 }
-.flex-container h2{
+.flex-container > h2{
 	width: 100%;
+	margin-top:-10px;
+	color:purple;
+	font-size: 40px;
+	font-weight:bold;
+	
 }
 .content{
 	display: flex;
@@ -68,7 +75,7 @@ body{
 }
 .item.input
 {
-	background-color: #e6e6ff!important;
+	background-color: #72A17D!important;
 }
 
 
@@ -107,4 +114,7 @@ h3{
 .part p{
 	color: white;
 	font-size: 40px;
+}
+em,strong{
+	color: purple;
 }

@@ -7,64 +7,66 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 <body>
-<div class="header">
-	<div class="image">
-		<h2 >Monks <em>coffee<em></h2>
-	<h2 class="coffee">“The Coffee Shop”
-	</h2>
+<div id="main">
+	<div class="header">
+		<div class="image">
+			<h2 >Monks coffee</h2>
+		<h2 class="coffee"><strong>“The Coffee Shop”</strong>
+		</h2>
+		</div>
+	</div>
+
+		<div class="flex-container">
+			<h2>Reservation</h2>
+			<div class="content">
+				<div class="item input">
+					<h2>Make a Reservation</h2>
+					<form>
+	    				Name:<input type="text"  placeholder="Name"></br></br>
+	    				Day:<input type="text" placeholder="Day"><br></br>
+	    				<button>Confirm Reservation</button>
+					</form>
+				</div>
+				<div class="item">
+					<h2>Existing Reservation</h2>
+					<table>
+						<thead>
+							<th>Name</th>
+							<th>Day</th>
+						</thead>
+						<tbody> 
+							<td>Rahman</td>
+							<td>Friday</td>
+						 </tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div>
+			<p class="shop"> </p>
+		</div>
+		<div id="map">
+		
+		</div>
+		<div class="flex-container">
+			<h2>Customer Reviews</h2>
+			<div class="content">
+				<div class="part">
+					<h3>Make a Reservation</h3>
+				</div>
+				<div class="part input">
+					<p class="list">
+						“Big lettuce, big carrots, tomatoes like volleyballs.”
+						— <em>Jerry Seinfeld, on The BIG Salad</em>
+					</p>
+				     				
+				</div>
+			</div>
+</div>
+	<div id="footer">
+		<h2> @copyright monks cafe</h2>
 	</div>
 </div>
-
-	<div class="flex-container">
-		<h2>Reservation</h2>
-		<div class="content">
-			<div class="item input">
-				<h2>Make a Reservation</h2>
-				<form>
-    				Name:<input type="text"  placeholder="Name"></br></br>
-    				Day:<input type="text" placeholder="Day"><br></br>
-    				<button>Confirm Reservation</button>
-				</form>
-			</div>
-			<div class="item">
-				<h2>Existing Reservation</h2>
-				<table>
-					<thead>
-						<th>Name</th>
-						<th>Day</th>
-					</thead>
-					<tbody> 
-						<td>Rahman</td>
-						<td>Friday</td>
-					 </tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-	<div>
-		<p class="shop"> </p>
-	</div>
-	<div id="map">
-		
-		
-	</div>
-	<div class="flex-container">
-		<h2>Customer Reviews</h2>
-		<div class="content">
-			<div class="part">
-				<h3>Make a Reservation</h3>
-				
-			</div>
-			<div class="part input">
-				<p class="list">
-					"Big lettuce ", "big carrots ", "tomatoes", "like volleyballs"], 
-				["Jerry Seinfeld", "on The BIG Salad"],
-				</p>
-			        				
-			</div>
-			
-		</div>
-	</div>
 <script>
       function initMap() {
         // Create a map object and specify the DOM element for display.

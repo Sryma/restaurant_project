@@ -49,11 +49,38 @@ background-size: cover;
 	background: url(../../image/image_5.jpeg);
 	background-size: cover;
 }
-.jumbotron.enjoying{
+.jumbotron.enjoy{
 	background: url(../../image/image_6.jpeg);
 	background-size: cover;
 }
-/* end of part-2*/
+/* end of part-1*/
+/* introduction*/
+.folder{
+	padding: 5% 0 5% 0;
+}
+.section-heading h1{
+	color: green!important;
+}
+.story i.fa{
+	color:orange;
+}
+.story:hover{
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 5%;
+	border:1px solid green;
+}
+#phone{
+	background-color: blue;
+	
+}
+/*
+end of introduction*/
+/* our chef*/
+.cooker img{
+	width:100%;
+	border-radius: 5%;
+}
+/*end of chef*/
 /* body section*/	
 #main{
 	background:  #ccccff;

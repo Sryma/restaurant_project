@@ -62,6 +62,9 @@ background-size: cover;
 .section-heading h1{
 	color: green!important;
 }
+.story h3{
+	color: orange!important;
+}
 .story i.fa{
 	color:orange;
 }

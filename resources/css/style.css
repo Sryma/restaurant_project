@@ -115,6 +115,17 @@ end of introduction*/
 	height:200px;
 }
 /*end of food section*/
+/*Events*/
+.event{
+	border: 1px solid red;
+	/*padding: 1%;*/
+	
+
+}
+.event p,.event h3{
+	color:red!important;
+}
+/*end of events*/
 /* body section*/	
 #main{
 	background:  #ccccff;

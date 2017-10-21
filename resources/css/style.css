@@ -5,6 +5,7 @@ body,html{
 	
 	margin: 0;
 	padding: 0;
+	text-align: center;
 	
 }
 /* part-1*/
@@ -79,7 +80,7 @@ end of introduction*/
 .cooker{
 	background-color: grey;
 	padding: 4%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .cooker img{
 	width:100%;
@@ -88,7 +89,7 @@ end of introduction*/
 }
 .cooker h5{
 	padding-top:5%;
-	border-bottom: 1px solid red;
+	/*border-bottom: 1px solid red;*/
 }
 
 
@@ -99,6 +100,15 @@ end of introduction*/
 	margin: 0 auto;
 }*/
 /*end of chef*/
+/*customer review*/
+.zoom{
+	background: url(../../image/image_17.jpeg) center  no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.gal img{
+	text-align: center;
+}
 /* body section*/	
 #main{
 	background:  #ccccff;

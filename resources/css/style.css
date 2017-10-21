@@ -76,10 +76,28 @@ background-size: cover;
 /*
 end of introduction*/
 /* our chef*/
+.cooker{
+	background-color: grey;
+	padding: 4%;
+	border: 1px solid red;
+}
 .cooker img{
 	width:100%;
-	border-radius: 5%;
+	height: 220px;
+	
 }
+.cooker h5{
+	padding-top:5%;
+	border-bottom: 1px solid red;
+}
+
+
+.cooker:hover{
+	background-color: pink;
+}
+/*.media i.fa{
+	margin: 0 auto;
+}*/
 /*end of chef*/
 /* body section*/	
 #main{

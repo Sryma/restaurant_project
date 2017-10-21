@@ -109,7 +109,12 @@ end of introduction*/
 	background-size: cover;
 	background-attachment: fixed;
 }
-
+/* food section*/
+.gal img{
+	width:100%;
+	height:200px;
+}
+/*end of food section*/
 /* body section*/	
 #main{
 	background:  #ccccff;

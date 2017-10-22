@@ -9,6 +9,7 @@ body,html{
 /*navbar*/
 .navbar{
 	background-color:rgb(255, 194, 102)!important;
+	border-bottom: 2px solid rgba(13, 96, 38,0.9);
 	}
 a.col:focus,a.col:hover{
 	color: red!important;

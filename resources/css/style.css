@@ -37,6 +37,7 @@ a.col:focus,a.col:hover{
 .jumbotron p{
   width: 70%;
   margin: 0 auto;
+  font-size: 1.6rem;
 }
 
 .jumbotron.bike{
@@ -181,6 +182,9 @@ h2:before{
   	font-family: "Monoton";
   	font-size: 3rem;
 }
+.jumbotron p{
+	font-size: 1rem;
+}
 .folder{
 	padding: 3% 0 3% 0;
 }
@@ -196,6 +200,9 @@ h2:before{
 	.jumbotron h1{
   	font-family: "Monoton";
   	font-size: 4.5rem;
+}
+.jumbotron p{
+	font-size: 1.5rem;
 }
 .folder{
 	padding: 3% 0 3% 0;

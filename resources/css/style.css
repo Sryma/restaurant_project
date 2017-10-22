@@ -31,7 +31,7 @@ a.col:focus,a.col:hover{
 
 .jumbotron h1{
   font-family: "Monoton";
-  font-size: 9.5rem;
+  font-size: 6rem;
 }
 
 .jumbotron p{
@@ -101,8 +101,7 @@ end of introduction*/
 }
 .cooker h5{
 	padding-top:5%;
-	/*border-bottom: 1px solid red;*/
-}
+	}
 
 
 .cooker:hover{
@@ -171,4 +170,36 @@ h2:before{
     bottom: 0;
     left: 25%;
     border-bottom: 2px solid pink;
+}
+/*media query*/
+@media only screen and (max-width: 480px){
+	body,html{
+		font-size: 16px;
+	}
+	.jumbotron h1{
+  	font-family: "Monoton";
+  	font-size: 3rem;
+}
+.folder{
+	padding: 3% 0 3% 0;
+}
+#foot{
+	background-color: rgb(255, 214, 153);
+}
+}	
+@media only screen and (max-width: 481px) and (min-width: 768px){
+	body,html{
+		font-size: 16px;
+	}
+
+	.jumbotron h1{
+  	font-family: "Monoton";
+  	font-size: 4.5rem;
+}
+.folder{
+	padding: 3% 0 3% 0;
+}
+	#foot{
+		background-color:rgb(255, 194, 102);
+	}
 }

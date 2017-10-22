@@ -40,27 +40,27 @@ a.col:focus,a.col:hover{
 }
 
 .jumbotron.bike{
-background: url(../../image/image_1.jpeg) ;
+background: url(../../image/img_home_1.jpeg) ;
 background-size: cover;
 }
 .jumbotron.beer{
-background: url(../../image/image_2.jpeg) ;
+background: url(../../image/img_home_2.jpeg) ;
 background-size: cover;
 }
 .jumbotron.flowers{
-background: url(../../image/image_3.jpeg) ;
+background: url(../../image/img_home_3.jpeg) ;
 background-size: cover;
 }
 .jumbotron.duffel{
-background: url(../../image/image_4.jpeg) ;
+background: url(../../image/img_home_4.jpeg) ;
 background-size: cover;
 }
 .jumbotron.eating{
-	background: url(../../image/image_5.jpeg);
+	background: url(../../image/img_home_5.jpeg);
 	background-size: cover;
 }
 .jumbotron.enjoy{
-	background: url(../../image/image_6.jpeg);
+	background: url(../../image/img_home_6.jpeg);
 	background-size: cover;
 }
 /* end of home*/
@@ -112,7 +112,7 @@ end of introduction*/
 /*end of chef*/
 /*customer review*/
 .zoom{
-	background: url(../../image/image_17.jpeg) center  no-repeat;
+	background: url(../../image/img_home_8.jpeg) center  no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }

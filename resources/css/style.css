@@ -5,10 +5,19 @@ body,html{
 	
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	/*text-align: center;*/
 	
 }
-/* part-1*/
+/*navbar*/
+.navbar{
+	background-color:rgb(255, 194, 102)!important;
+	}
+a.col:focus,a.col:hover{
+	color: red!important;
+	background-color: rgb(174, 247, 163)!important;
+}
+/*end of navbar*/
+/* home*/
 .jumbotron{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: white;
@@ -54,7 +63,7 @@ background-size: cover;
 	background: url(../../image/image_6.jpeg);
 	background-size: cover;
 }
-/* end of part-1*/
+/* end of home*/
 /* introduction*/
 .folder{
 	padding: 5% 0 5% 0;
@@ -131,113 +140,21 @@ end of introduction*/
 	background-color: rgb(255, 214, 153);
 }
 /*end of contact*/
-/* body section*/	
-#main{
-	background:  #ccccff;
-}	  
-.image{
-	background-image: url(../../image/jerry.jpg);
-	width: 100%;
-	height: 500px;
-	background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    top:-30px;
-}
-h2{
-	font-size: 40px;
-	color: #002266;
-}
-.flex-container{
-	display: flex;
-	width: 100%;
-	flex-direction:column;
-	height: 350px;
-	/*border: 1px solid blue;*/
-}
-.coffee{
-	background: #6699ff;
-	font-size: 40px;
-	width: 50%;
-	position: absolute;
-	top: 150px;
-	left: 140px;
-	box-shadow: 10px 10px 10px 1px grey;
-}
-.shop{
-	width:100%;
-	height: 50px;
-	color: blue;
-	font-size: 40px;
-	font-weight: bold;
-	background-color: rgba(211,211,211,0.9);
-	box-shadow: 10px 10px 10px 1px grey;
-	margin: 0 auto;
-}
-.flex-container > h2{
-	width: 100%;
-	margin-top: 5px;
-	color:#003cb3;
-	font-size: 40px;
-	font-weight:bold;
-	
-}
-.content{
-	display: flex;
-	flex-direction: row;
-	flex:1;
-	width: 100%;
-	height: 300px;
-	justify-content: space-around;
-	/*border: 1px solid orange;*/
-	margin-right: 10px;
 
-}
-.item,.part{
-	width:50%;
-	margin-right: 2px;
-	/*border:2px solid black;*/
-}
-.item.input
-{
-	background-color: #72A17D!important;
-}
-/* resevation section*/
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid blue;
-    text-align: left;
-    padding: 8px;
-
-}
-
-tr:nth-child(odd) {
-    background-color: #dddddd;
-}
 /* Google map */
 #map{
 	width: 100%;
 	height: 650px;
 	border: 1px solid red;
 	padding: 10%;
-	
-}
-
-
+	}
+/*footer*/
 #foot{
-	background-color: red;
+	background-color: rgb(191, 255, 128);
 	width: 100%;
 	text-align: left;
 	padding-top: 20px;
 	padding-left: 100px;
-	
 }
 /* check*/
 h2 {

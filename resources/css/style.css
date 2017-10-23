@@ -20,7 +20,7 @@ a.col:focus,a.col:hover{
 .jumbotron{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: white;
-  height: 40rem;
+  height: 50rem;
  /* width:100%;*/
   background-size: cover;
   text-align: center;
@@ -209,12 +209,12 @@ h2:before{
 		font-size: 16px;
 	}
 	.jumbotron{
-     height:35rem;
+     height:40rem;
 	width:100%;
 }
 	.jumbotron h1{
   	font-family: "Monoton";
-  	font-size: 2.5rem;
+  	font-size: 2rem;
 }
 .jumbotron p{
 	font-size: 1rem;
@@ -229,7 +229,7 @@ h2:before{
 		font-size: 18px;
 	}
 .jumbotron{
-      height:40rem;
+      height:42rem;
       width: 100%;
   }
 	.jumbotron h1{

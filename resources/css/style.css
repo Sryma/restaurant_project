@@ -214,7 +214,7 @@ h2:before{
 }
 	.jumbotron h1{
   	font-family: "Monoton";
-  	font-size: 3rem;
+  	font-size: 2.5rem;
 }
 .jumbotron p{
 	font-size: 1rem;
@@ -236,10 +236,10 @@ h2:before{
   }
 	.jumbotron h1{
   	font-family: "Monoton";
-  	font-size: 4.5rem;
+  	font-size: 3rem;
 }
 .jumbotron p{
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 .folder{
 	padding: 3% 0 3% 0;

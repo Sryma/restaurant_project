@@ -17,17 +17,19 @@ a.col:focus,a.col:hover{
 }
 /*end of navbar*/
 /* home*/
+
 .jumbotron{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: white;
-  height: 50rem;
- /* width:100%;*/
-  background-size: cover;
-  text-align: center;
+ /*height: 100%;*/
+ height: 100vh;
+  /*width:100%;*/
+    background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10rem;
   background-position: center;
-margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .jumbotron h1{
@@ -88,6 +90,9 @@ background-size: cover;
 }
 #phone{
 	background-color: rgb(255, 153, 51);
+}
+#introduction{
+	background-color: pink;
 }
 /*
 end of introduction*/
@@ -207,14 +212,18 @@ h2:before{
 @media only screen and (max-width: 480px){
 	body,html{
 		font-size: 16px;
-	}
+		}
+	
 	.jumbotron{
-     height:40rem;
 	width:100%;
+    height:60vh;
+    border:1px solid red;
+    /*margin: 0 auto;*/
+	
 }
 	.jumbotron h1{
   	font-family: "Monoton";
-  	font-size: 2rem;
+  	font-size: 2.5rem;
 }
 .jumbotron p{
 	font-size: 1rem;
@@ -229,8 +238,10 @@ h2:before{
 		font-size: 18px;
 	}
 .jumbotron{
-      height:42rem;
-      width: 100%;
+		width: 100%;
+		height:60vh;
+    /*  height:35rem;*/
+      
   }
 	.jumbotron h1{
   	font-family: "Monoton";
@@ -242,5 +253,4 @@ h2:before{
 .folder{
 	padding: 3% 0 3% 0;
 }
-	
 }

@@ -217,11 +217,10 @@ h2:before{
     height:50vh;
     border:1px solid red;
     margin: 0 auto;
-	
-}
+	}
 	.jumbotron h1{
   	font-family: "Monoton";
-  	font-size: 2.5rem;
+  	font-size: 2rem;
 }
 .jumbotron p{
 	font-size: 1rem;
@@ -229,7 +228,17 @@ h2:before{
 .folder{
 	padding: 3% 0 3% 0;
 }
-
+/*.fresh h1{
+	padding-bottom:10rem;
+}*/
+/*.fresh p{
+	padding-bottom: 1rem;
+}*/
+.section-heading h1,.up{
+	font-size: 2rem!important;
+	color:blue!important;
+	}
+	
 }	
 @media only screen and (min-width: 481px) and (max-width: 768px){
 	body,html{

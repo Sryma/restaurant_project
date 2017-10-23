@@ -196,6 +196,9 @@ h2:before{
 	body,html{
 		font-size: 16px;
 	}
+	.jumbotron{
+      height:25rem;
+  }
 	.classify{width:100%;}
 	.jumbotron h1{
   	font-family: "Monoton";
@@ -215,7 +218,9 @@ h2:before{
 	body,html{
 		font-size: 16px;
 	}
-
+.jumbotron{
+      height:30rem;
+  }
 	.jumbotron h1{
   	font-family: "Monoton";
   	font-size: 4.5rem;

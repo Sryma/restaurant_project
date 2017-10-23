@@ -21,11 +21,13 @@ a.col:focus,a.col:hover{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: white;
   height: 40rem;
+  width:100%;
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat;
   padding-top: 10rem;
   background-position: center;
+margin: 0 auto;
 }
 
 .jumbotron h1{
@@ -198,6 +200,7 @@ h2:before{
 	}
 	.jumbotron{
       height:25rem;
+      width:100%;
   }
 	.classify{width:100%;}
 	.jumbotron h1{

@@ -98,7 +98,7 @@ end of introduction*/
 }
 .cooker img{
 	width:100%;
-	min-height: 200px;
+	height: 200px;
 }
 .cooker h5{
 	padding-top:5%;
@@ -160,6 +160,13 @@ end of introduction*/
 	padding-top: 20px;
 	padding-left: 100px;
 }
+.hour p{
+	border-bottom: 1px solid rgb(92, 117, 10);
+}
+#foot p{
+	color:rgb(229, 126, 9)!important;
+}
+/*end of footer*/
 /* check*/
 h2 {
     font-weight: 300;

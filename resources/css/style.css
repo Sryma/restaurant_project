@@ -196,6 +196,7 @@ h2:before{
 	body,html{
 		font-size: 16px;
 	}
+	.classify{width:100%;}
 	.jumbotron h1{
   	font-family: "Monoton";
   	font-size: 3rem;

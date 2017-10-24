@@ -8,7 +8,7 @@ body,html{
 	}
 /*navbar*/
 .navbar{
-	background-color:rgb(255, 194, 102)!important;
+	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 117, 26,1));
 	border-bottom: 2px solid rgba(13, 96, 38,0.9);
 	}
 a.col:focus,a.col:hover{
@@ -78,15 +78,15 @@ background-size: cover;
 	padding-bottom: 2%;
 }
 .story h3{
-	color: orange!important;
+	color: rgb(255, 117, 26)!important;
 }
 .story i.fa{
-	color:orange;
+	color:rgb(128, 51, 0);
 }
 .story:hover{
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgb(255, 209, 179);
 	border-radius: 5%;
-	border:1px solid green;
+	border-bottom:2px solid green;
 }
 #phone{
 	background-color: rgb(255, 153, 51);
@@ -177,17 +177,15 @@ end of introduction*/
 	}
 /*footer*/
 #foot{
-	background-color: rgb(221, 192, 133);
-	width: 100%;
-	text-align: left;
-	padding-top: 20px;
-	padding-left: 100px;
+	background:linear-gradient(to left, rgba(255,0,0,0), rgba(255, 117, 26,1));
+	padding-top:2rem;
+	
 }
 .hour p{
 	border-bottom: 1px solid rgb(92, 117, 10);
 }
 #foot p{
-	color:rgb(229, 126, 9)!important;
+	color:rgb(51, 102, 0)!important;
 }
 /*end of footer*/
 /* check*/

@@ -21,10 +21,8 @@ a.col:focus,a.col:hover{
 .jumbotron{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: white;
- /*height: 100%;*/
- height: 100vh;
-  /*width:100%;*/
-    background-size: cover;
+  height: 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10rem;
   background-position: center;
@@ -77,11 +75,15 @@ background-size: cover;
 	font-family:'Cookie', cursive!important;
 	padding-bottom: 2%;
 }
+.brief{
+	padding:0 5% 0 5%;
+}
 .story h3{
 	color: rgb(255, 117, 26)!important;
 }
 .story i.fa{
-	color:rgb(128, 51, 0);
+	/*background-color: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 117, 26,1))!important;*/
+color:green;
 }
 .story:hover{
 	background-color: rgb(255, 209, 179);
@@ -211,7 +213,9 @@ h2:before{
 	body,html{
 		font-size: 16px;
 		}
-	
+	#classify{
+		margin-top: 5%;
+	}
 	.jumbotron{
 	width:100%;
     height:50vh;
@@ -258,4 +262,65 @@ h2:before{
 .folder{
 	padding: 3% 0 3% 0;
 }
+}
+/*check*/
+.awesome-feature-icon span:after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    border-radius: 50px;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.story i {
+    background-color: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    border-radius: 50px;
+    color: #4c5462;
+    display: inline-block;
+    font-size: 24px;
+    height: calc(100% - 2px);
+    left: 1px;
+    line-height: 58px;
+    position: relative;
+    text-align: center;
+    top: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: calc(100% - 2px);
+    z-index: 1;
+}
+.story:hover .story i.fa {
+    background: transparent;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.asesome-feature-details h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.story i{
+  /*box-shadow: 1px 1px 2px rgba(0,0,0,0.2);*/
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 117, 26,1));
+  border-radius: 50%;
+  /*background: #4c5462;
+  background-color: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;*/
+  list-style: none;
+  line-height: 30px;
+  width: 40px;
+  height: 40px;
+  /*margin-right: 20px;*/
+  transition: all 0.3s ease 0s;
+}
+
+.story i:hover{
+	background: transparent;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }

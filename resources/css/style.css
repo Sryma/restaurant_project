@@ -121,7 +121,9 @@ end of introduction*/
 	background-attachment: fixed;
 }
 /* food section*/
-
+#food{
+	background-color: rgb(217, 217, 217);
+}
 .gal{
 	background-color: rgb(255, 214, 153);
 	margin-bottom: 1rem;

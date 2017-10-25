@@ -238,10 +238,13 @@ h2:before{
 	padding: 3% 0 3% 0;
 }
 .section-heading h1,.up{
-	font-size: 2rem!important;
-	color:blue!important;
+	font-size: 1.5rem;
+	color:blue;
 	}
-	
+.call{
+	font-size: 1rem;
+	color:red!important;
+}
 }	
 @media only screen and (min-width: 481px) and (max-width: 768px){
 	body,html{

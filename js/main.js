@@ -1,7 +1,7 @@
 //slick carousel
  $('.carousel').slick({
     autoplay: true,
-    arrows: false,
+    // arrows: true,
     autoplaySpeed: 5000,
     pauseOnHover: false,
     pauseOnFocus: false,

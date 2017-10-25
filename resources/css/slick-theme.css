@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: transparent;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -159,11 +159,11 @@
     padding: 5px;
 
     cursor: pointer;
-
-    color: transparent;
+    color: white;
     border: 0;
     outline: none;
     background: transparent;
+   
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
